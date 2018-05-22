@@ -1,0 +1,78 @@
+.projects {
+    padding-top: 5%;
+}
+.projects_row{
+    width: 100%;
+    height: 35%;
+    margin-bottom: 4%;
+}
+
+.projects_1,
+.projects_2,
+.projects_3 {
+    width: 30%;
+    height: 100%;
+    background:#000002;
+    opacity: 0.75;
+    border-radius: 3%;
+    box-shadow: 4px 8px rgb(2, 2, 37);
+    text-align: center;
+    padding: 1.5%;
+}
+
+.projects_1{
+    float: left;
+    margin-left: 10%;
+}
+
+.projects_2{
+    float: right;
+    margin-right: 10%;
+}
+
+.projects_3{
+    margin: 0 auto;
+}
+
+.projects_1:hover,
+.projects_2:hover,
+.projects_3:hover{
+    background-size: cover;
+    color: transparent;
+    opacity: 1;
+}
+
+.projects_1:hover{
+    background-image: url(../../images/pokedex.jpg);
+}
+
+.projects_2:hover{
+    background-image: url(../../images/ecommerce.jpg);
+}
+
+.projects_3:hover{
+    background-image: url(../../images/foodmap.jpg);
+}
+
+.projects_btn {
+    padding: 3%;
+    border-radius: 6%;
+    border: #C3CEDC solid 1px;
+    color: white;
+    margin:  0% 5%;
+}
+
+.projects_btn a {
+    text-decoration: none;
+    color:white;
+}
+
+.--cod {
+    background: #0A0921;
+}
+
+.--dem {
+    background:#151F4F;
+}
+
+

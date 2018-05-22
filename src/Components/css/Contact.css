@@ -1,0 +1,21 @@
+.contact ul {
+    padding: 5%;
+    list-style: none;
+}
+
+.contact ul li {
+    padding: 8%;
+    display: inline-block;
+    width: 25%;
+}
+
+.icon {
+    padding-right: 5%;
+    font-size: 6em;
+    color: white;
+    opacity: 0.65;
+}
+
+.contact ul li a {
+    text-decoration: none;
+}

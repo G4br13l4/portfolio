@@ -7,7 +7,14 @@ class Contact extends React.Component{
         return(
             <div>
                 <NavBar/>
-                <section>Hola soy Contact</section>
+                <section className="contact">
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=5215531130239" target="_blank" target="_blank"><i class="icon fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/gabriela-lf/"><i class="icon fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/G4br13l4"><i class="icon fab fa-github"></i></a></li>
+                        <li><a href="mailto:gab_lop@live.com.mx" target="_blank"><i class="icon far fa-envelope"></i></a></li>
+                    </ul>
+                </section>
             </div>
             );
         }

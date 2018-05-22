@@ -9,7 +9,7 @@ class Home extends React.Component{
                 <NavBar/>
                 <section>
                     <div className="home_title">
-                        <h1>¡Hola!, so Gabriela López Fuentes,</h1>
+                        <h1>¡Hola!, soy Gabriela López Fuentes,</h1>
                         <span>Frontend developer & digital marketing analyst</span>
                     </div>
                 </section>
