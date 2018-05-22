@@ -11,7 +11,7 @@ class NavBar extends React.Component{
                     <li><a href="https://g4br13l4.github.io/portfolio/skills">Skills</a></li>
                     <li><a href="https://g4br13l4.github.io/portfolio/projects">Projects</a></li>
                     <li><a href="https://g4br13l4.github.io/portfolio/contact">Contact</a></li>
-                    <li><a href="https://g4br13l4.github.io/portfolio/places">Places</a></li>
+                    
                 </ul>
             </nav>
         );

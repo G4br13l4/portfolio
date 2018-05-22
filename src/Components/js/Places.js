@@ -3,11 +3,14 @@ import './../css/Places.css';
 import NavBar from './NavBar';
 
 class Places extends React.Component{
+
     render(){
         return(
             <div>
                 <NavBar/>
-                <section>Hola soy Places</section>
+                <section>
+                    <div id="chart_div"></div>
+                </section>
             </div>
             );
         }
