@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.d544d7f8.css",
-  "main.css.map": "static/css/main.d544d7f8.css.map",
-  "main.js": "static/js/main.246a1bc5.js",
-  "main.js.map": "static/js/main.246a1bc5.js.map",
+  "main.css": "static/css/main.2dc30727.css",
+  "main.css.map": "static/css/main.2dc30727.css.map",
+  "main.js": "static/js/main.5a32d92c.js",
+  "main.js.map": "static/js/main.5a32d92c.js.map",
+  "static\\media\\ecommerce.jpg": "static/media/ecommerce.9ff39226.jpg",
+  "static\\media\\foodmap.jpg": "static/media/foodmap.fc4ae2d2.jpg",
   "static\\media\\home_back.jpg": "static/media/home_back.5ff94c51.jpg",
+  "static\\media\\pokedex.jpg": "static/media/pokedex.706018da.jpg",
   "static\\media\\yo-1.jpg": "static/media/yo-1.9de031d0.jpg"
 }
