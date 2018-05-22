@@ -6,7 +6,7 @@ class NavBar extends React.Component{
         return(
             <nav>
                 <ul>
-                    <li><a href="https://g4br13l4.github.io/portfolio/">Home</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/">Hom</a></li>
                     <li><a href="https://g4br13l4.github.io/portfolio/about">About me</a></li>
                     <li><a href="https://g4br13l4.github.io/portfolio/skills">Skills</a></li>
                     <li><a href="https://g4br13l4.github.io/portfolio/projects">Projects</a></li>
