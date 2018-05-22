@@ -14,7 +14,7 @@ import Contact from './Components/js/Contact';
 import Places from './Components/js/Places';
 
 ReactDOM.render(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

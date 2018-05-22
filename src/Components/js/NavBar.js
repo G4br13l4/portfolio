@@ -6,12 +6,12 @@ class NavBar extends React.Component{
         return(
             <nav>
                 <ul>
-                    <li><a href="http://localhost:3000/">Home</a></li>
-                    <li><a href="http://localhost:3000/about">About me</a></li>
-                    <li><a href="http://localhost:3000/skills">Skills</a></li>
-                    <li><a href="http://localhost:3000/projects">Projects</a></li>
-                    <li><a href="http://localhost:3000/contact">Contact</a></li>
-                    <li><a href="http://localhost:3000/places">Places</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/">Home</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/about">About me</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/skills">Skills</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/projects">Projects</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/contact">Contact</a></li>
+                    <li><a href="https://g4br13l4.github.io/portfolio/places">Places</a></li>
                 </ul>
             </nav>
         );

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://g4br13l4.github.io/portfolio",
+  "homepage": "https://G4br13l4.github.io/portfolio",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -10,7 +10,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
+    "deploy": "react-scripts build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
