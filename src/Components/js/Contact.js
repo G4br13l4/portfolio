@@ -11,8 +11,8 @@ class Contact extends React.Component{
                     <NavBar/>
                     <Col className="default-background" xs={12} md={10}>
                         <Row className="align-center">
-                            <Col xs={12} md={10} className="title-section">
-                                <h1>Contáctame</h1> 
+                            <Col xs={10} md={10} className="title-section">
+                                <h1>¡Contáctame aquí!</h1> 
                             </Col>
                         </Row>
                         <Row className="align-center">

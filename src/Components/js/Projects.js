@@ -9,10 +9,10 @@ class Projects extends React.Component{
             <Grid fluid>
                 <Row>
                     <NavBar/>
-                    <Col className="default-background" xs={12} md={10}>
+                    <Col className="default-background height-auto" xs={12} md={10}>
                         <Row className="align-center">
-                            <Col md={10} className="title-section">
-                                <h1>Projects</h1> 
+                            <Col xs={12} md={10} className="title-section">
+                                <h1>Proyectos</h1> 
                             </Col>
                         </Row>
                         <Row className="align-center">

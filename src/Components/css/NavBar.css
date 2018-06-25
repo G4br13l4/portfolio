@@ -1,19 +1,23 @@
 .nav-container{
     background:#000002;
     height: 100vh;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 nav ul li {
     height: 12vh;
     padding: 5%;
     list-style: none;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #C3CEDC;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
