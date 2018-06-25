@@ -1,6 +1,7 @@
 import React from 'react';
 import './../css/NavBar.css';
 import { Row, Col} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component{
     render(){
@@ -8,11 +9,11 @@ class NavBar extends React.Component{
             <Col className="nav-container" xs={12} md={2}>
                 <nav>
                     <ul>
-                        <li><a href="https://g4br13l4.github.io/portfolio/">Menu</a></li>
-                        <li><a href="https://g4br13l4.github.io/portfolio/about">Acerca de mí</a></li>
-                        <li><a href="https://g4br13l4.github.io/portfolio/skills">Skills</a></li>
-                        <li><a href="https://g4br13l4.github.io/portfolio/projects">Proyectos</a></li>
-                        <li><a href="https://g4br13l4.github.io/portfolio/contact">Contacto</a></li>    
+                        <li><Link to="/">Menu</Link></li>
+                        <li><Link to="/about">Acerca de mí</Link></li>
+                        <li><Link to="/skills">Skills</Link></li>
+                        <li><Link to="/projects">Proyectos</Link></li>
+                        <li><Link to="/contact">Contacto</Link></li>    
                     </ul>
                 </nav>
             </Col>
