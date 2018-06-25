@@ -1,15 +1,47 @@
-.about_background {
+.about-background {
     background-image: url(../../images/yo-1.jpg);
     background-position: left center;
+    background-size: cover;
+}
+
+.about-section {
+    height:100vh;
+    padding: 2.5%;
+    color: white;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .about_textbox {
-    width: 55%;
+    font-size: 0.9em;
     text-align: center;
-    float: right;
     background:#000002;
     opacity: 0.45;
-    padding: 1%;
     border-radius: 5%;
+    padding: 2%;
 }
+
+@media only screen and (max-width: 600px) {
+    .max-height {
+        height: 100%; 
+    }
+
+    .about_textbox{
+        overflow: scroll;
+        padding:3%;
+    }
+
+    .about-background {
+        background-position: center;
+    }
+
+    .align-right {
+        justify-content: center;
+    }
+}
+
 

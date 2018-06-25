@@ -4,8 +4,16 @@
 
 .home_title h1 {
     font-size: 2.6em;
+    font-weight: bold;
+    padding-bottom: 2%;
 }
 
 .home_title span {
     font-size: 1.3em;
+}
+
+@media only screen and (max-width: 600px) {
+    .home_title {
+        padding-left: 10%;
+    } 
 }

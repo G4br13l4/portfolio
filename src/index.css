@@ -1,18 +1,32 @@
 *{
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Overpass Mono', monospace;
 }
-
-section {
+.default-background {
   background-image: url(images/home_back.jpg);
-  height:100vh;
-  width: 85%;
-  padding: 2.5%;
-  float: left;
-  color: white;
   background-size: cover;
+  height: 100vh;
+  padding: 2.5%;
+  color: white;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title-section {
+  font-size: 2.6em;
+  text-align: center;
+  padding: 5%;
+}
+
+.text-center {
+  text-align: center;
 }
